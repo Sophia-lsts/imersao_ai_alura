@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: black; /* Fundo preto */
+    color: #b983ff; /* Texto roxo */ 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #333; /* Cor de fundo dos botões mais escura */ 
+    color: #b983ff; /* Texto dos botões roxo */
+    border: none;
+    cursor: pointer;
+}
+
+#conteudo {
+    padding: 20px;
+    border: 1px solid #555; /* Borda mais escura */
+}
