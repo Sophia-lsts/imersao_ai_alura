@@ -1,0 +1,42 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-1.5-pro-latest",
+    "candidateCount": 1,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }],
+    "responseMimeType": "text/plain"
+  },
+  "multiturnPrompt": {
+    "primingExchanges": [{
+      "source": "USER",
+      "id": "EB20C83E-1624-40D3-81BD-A7C24F6D8F5F"
+    }],
+    "sessions": [{
+      "sessionExchanges": [{
+        "request": "Te escrevi um problema simples de conversão de fahrenheit para celsius, logo depois te forneci alternativas de respostas de lacunas de um código em C, que responde esse problema, mas está faltando alguns elementos nele.\n\nDado que a fórmula para conversão de Fahrenheit para Celsius é C \u003d 5/9 (F – 32), leu um\nvalor de temperatura em Fahrenheit e exibi-lo em Celsius\n\nAlternativas de respostas para as lacunas:\n- main\n- ;\n- :\n- %c\n- print\n- Fahrenheit\n- c\n- %f\n- 32\n- Celsius\n- }\n- printf\n\nResolução em código C com lacunas:\n#include \u0026lt;stdio.h\u0026gt;\n\nint ____(){\n   float f, _;\n   printf(\u0026quot;Digite o valor da sua temperatura em Fahrenheit: \\n)_\n   scanf(\u0026quot;__\u0026quot;, \u0026amp;f);\n   c \u003d (5/9) * (f – __);\n   \n   ______(\u0026quot;O valor da sua temperatura em _______ é: %f\u0026quot;, c \\n);\n   return 0;\n_\n\n\nFaça um algoritmo que transforme uma velocidade fornecida em m/s pelo usuário para\nKm/h. Para tal, multiplique o valor em m/s por 3,6.\n\nAlternativas para respostas das lacunas:\n\nResolução em código C com lacunas:\n",
+        "response": "## Resolvendo o problema de conversão Fahrenheit para Celsius\n\nAqui está o código C completo com as lacunas preenchidas:\n\n```c\n#include ",
+        "source": "MODEL",
+        "id": "561A0363-C8F1-4AB3-B518-BA230BDD9ACF"
+      }, {
+        "request": "Te escrevi um problema simples de conversão de fahrenheit para celsius, logo depois te forneci alternativas de respostas de lacunas de um código em C, que responde esse problema, mas está faltando alguns elementos nele.\n\nDado que a fórmula para conversão de Fahrenheit para Celsius é C \u003d 5/9 (F – 32), leu um\nvalor de temperatura em Fahrenheit e exibi-lo em Celsius\n\nAlternativas de respostas para as lacunas:\n- main\n- ;\n- :\n- %c\n- print\n- Fahrenheit\n- c\n- %f\n- 32\n- Celsius\n- }\n- printf\n\nResolução em código C com lacunas:\n#include \u0026lt;stdio.h\u0026gt;\n\nint ____(){\n   float f, _;\n   printf(\u0026quot;Digite o valor da sua temperatura em Fahrenheit: \\n)_\n   scanf(\u0026quot;__\u0026quot;, \u0026amp;f);\n   c \u003d (5/9) * (f – __);\n   \n   ______(\u0026quot;O valor da sua temperatura em _______ é: %f\u0026quot;, c \\n);\n   return 0;\n_\n\n\nFaça o mesmo com esse exemplo:\nFaça um algoritmo que transforme uma velocidade fornecida em m/s pelo usuário para\nKm/h. Para tal, multiplique o valor em m/s por 3,6.\n\nAlternativas para respostas das lacunas:\n\nResolução em código C com lacunas:",
+        "response": "## Resolvendo o problema de conversão Fahrenheit para Celsius\n\nAqui está o código C completo com as lacunas preenchidas:\n\n```c\n#include ",
+        "source": "MODEL",
+        "id": "2CB6794C-3F09-48A6-9F04-888FDC6C40C9"
+      }]
+    }]
+  }
+}
