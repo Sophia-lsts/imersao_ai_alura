@@ -1,0 +1,45 @@
+Meu método de resolução para esse desafio foi dar um problema simples, escrever alternativas de respostas para lacunas de um código e, a seguir, escrevi um código em C com lacunas que resolvia esse problema. 
+Depois dei outro exemplo, e deixei em branco as alternativas e o código em C com lacunas para ele completar.
+
+
+O prompt que eu usei foi exatamente esse: 
+Te escrevi um problema simples de conversão de fahrenheit para celsius, logo depois te forneci alternativas de respostas de lacunas de um código em C, que responde esse problema, mas está faltando alguns elementos nele.
+
+Dado que a fórmula para conversão de Fahrenheit para Celsius é C = 5/9 (F – 32), leu um
+valor de temperatura em Fahrenheit e exibi-lo em Celsius
+
+Alternativas de respostas para as lacunas:
+- main
+- ;
+- :
+- %c
+- print
+- Fahrenheit
+- c
+- %f
+- 32
+- Celsius
+- }
+- printf
+
+Resolução em código C com lacunas:
+#include <stdio.h>
+
+int ____(){
+   float f, _;
+   printf("Digite o valor da sua temperatura em Fahrenheit: \n)_
+   scanf("__", &f);
+   c = (5/9) * (f – __);
+   
+   ______("O valor da sua temperatura em _______ é: %f", c \n);
+   return 0;
+_
+
+
+Faça o mesmo com esse exemplo:
+Faça um algoritmo que transforme uma velocidade fornecida em m/s pelo usuário para
+Km/h. Para tal, multiplique o valor em m/s por 3,6.
+
+Alternativas para respostas das lacunas:
+
+Resolução em código C com lacunas:
