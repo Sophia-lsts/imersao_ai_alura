@@ -43,3 +43,43 @@ Km/h. Para tal, multiplique o valor em m/s por 3,6.
 Alternativas para respostas das lacunas:
 
 Resolução em código C com lacunas:
+
+A Google AI Studio me deu essas respostas:
+
+Alternativas para respostas das lacunas:
+main
+;
+:
+m/s
+km/h
+v_ms
+v_kmh
+%f
+3.6
+scanf
+printf
+}
+
+Resolução em código C com lacunas:
+#include <stdio.h>
+
+int ____() {
+  float ____, ____;
+  printf("Digite a velocidade em m/s: ");
+  scanf("%f", &____);
+  ____ = ____ * ____;
+  printf("A velocidade em km/h é: %f\n", ____);
+  return 0;
+}
+
+Resolução completa:
+#include <stdio.h>
+
+int main() {
+  float v_ms, v_kmh;
+  printf("Digite a velocidade em m/s: ");
+  scanf("%f", &v_ms);
+  v_kmh = v_ms * 3.6;
+  printf("A velocidade em km/h é: %f\n", v_kmh);
+  return 0;
+}
