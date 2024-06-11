@@ -1,4 +1,4 @@
-### <h1 align="center"> Oi! Tá perdido? Não sabe visualizar o site? Segue as instruções abaixo! </h1>
+### <h1 align="center"> Oi! Tá perdido? Não sabe visualizar o site? Só clicar no link abaixo! </h1>
 
-[Link](https://github.com/Sophia-lsts/imersao_ai_alura/blob/main/aula1%2Fsite-simples-falando-sobre-alguns-usos-do-machine-learning.markdown)
+[Site simples sobre usos do Machine Learning](https://codepen.io/sophia-lsts/pen/ExJqqeX)
 
